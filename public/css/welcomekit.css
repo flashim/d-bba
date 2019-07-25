@@ -1,0 +1,83 @@
+body {
+  /* background-image: url("../images/banner.png");
+  background-color: #fff;
+  height: 400px; 
+  background-position: center; 
+  background-repeat: repeat; 
+  background-size: cover; */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header-container {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-logo {
+  max-height: 80px;
+  padding: 5px;
+}
+
+.App-banner {
+  height: 20vmin;
+  pointer-events: none;
+  float: right;
+}
+
+.App-header {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.notes-item {
+  font-weight: bold;
+}
+
+.notes-text {
+  margin: 0px 0px;
+  padding: 0px;
+}
+
+.bluebox {
+  display: block;
+  background: #e0eef9; /* left column background colour */
+  border-bottom: 2px solid #b0cce2;
+  color: #061592;
+  font-weight: bold;
+  font-family: "Arial";
+  font-size: 18px;
+  text-decoration: none;
+  position: relative;
+  padding: 6px 2px;
+}
+
+.box {
+  display: block;
+  background: #fff;
+  padding: 0px 0px;
+  margin: 12px 4px;
+}
+
+.bgImage {
+  /* background-image: url('../images/banner.png');
+  background-repeat: repeat-y;
+  background-size: 50%; */
+}
+
+ul,
+ol {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
